@@ -1,0 +1,102 @@
+.bussinessPlan__layout{
+    margin-top: 110px;
+    height: auto;
+}
+
+.title{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.card__layout{
+    padding: 50px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card{
+    background-color: #ffff;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 300px;
+    border-radius: 5px;
+    padding: 24px;
+    gap:15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+@media (max-width:402px){
+    .card{
+        gap:5px;
+        padding: 12px;
+    }
+}
+
+.card:hover{
+    background-color: #1e1a3d;
+   
+}
+
+.sml__title{
+     color: #b6b5bb;
+     font-size: 12px;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+}
+
+.lg__title{
+    color:#151129;
+    font-size: 34px;
+
+}
+.lg__title__sm{
+    color:#cacaca;
+    font-size: 12px;
+    align-self: end;
+}
+
+.content{
+    word-break: break-word;
+}
+
+.content__list{
+letter-spacing: 1px;
+}
+
+.lg__btn{
+    background-color: #ececee;
+    border:none;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.card:hover .sml__title {
+    color: #ffff;
+}
+.card:hover .lg__title  {
+    color: #ffff;
+}
+.card:hover .content   {
+    color: #ffff;
+}
+.card:hover .content__list   {
+    color: #ffff;
+}
+.card:hover .lg__btn {
+    background-color: #3f45d7;
+    color: #ffff;
+}

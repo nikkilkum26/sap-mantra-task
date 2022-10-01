@@ -1,0 +1,94 @@
+.availableFeatures__layout {
+    max-height: fit-content;
+    background-color: #ffff;
+}
+
+.availableFeatures__grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+    padding: 25px;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card__logo {
+    background-color: #f2f2f4;
+    padding: 10%;
+    border-radius: 50%;
+}
+
+.card__title {
+    color: #26252b;
+}
+
+.card__content {
+    color: #dbdadf;
+    text-align: center;
+    padding: 5%;
+}
+
+.logo_svg1 {
+    background-image: url(../assets/calendar-outline.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.logo_svg2 {
+    background-image: url(../assets/cloudy-night-outline.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.logo_svg3 {
+    background-image: url(../assets/diamond-outline.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.logo_svg4 {
+    background-image: url(../assets/flower-outline.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.logo_svg5 {
+    background-image: url(../assets/laptop-outline.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.logo_svg6 {
+    background-image: url(../assets/radio-outline.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.logo_svg7 {
+    background-image: url(../assets/shield-half-outline.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+
+.logo_svg8 {
+    background-image: url(../assets/snow-outline.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}

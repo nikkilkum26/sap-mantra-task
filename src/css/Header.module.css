@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 40px;
+    flex-wrap: wrap;
+    gap:10px;
+    background-color: #f6f6f8;
+}
+
+.header__inside{
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+
+.header_small_text{
+    color: #9f9fa1;
+}
+
+.header_large_text{
+     color: #141027;
+     font-weight: 500;
+     font-size: 24px;
+}
+
+.btn_bg{
+    color: #141027;
+    border: none;
+    height: 40px;
+    border-radius: 22px;
+    padding: 14px;
+    font-weight: 600;
+}
